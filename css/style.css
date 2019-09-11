@@ -381,7 +381,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
+  /*padding-top: 4em;*/
   padding-bottom: 9em;
   clear: both;
   width: 100%;
@@ -1428,6 +1428,9 @@ body.offcanvas {
 
 .row-pt-md {
   padding-top: 3em; }
+
+.row-pt-md-new {
+  padding-top: 0em; }
 
 .col-padding {
   padding: 10px !important; }
