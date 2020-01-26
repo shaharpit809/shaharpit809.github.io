@@ -55,42 +55,6 @@
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/ArpitShah_full.PNG);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Arpit Shah</a></h1>
-				<span class="position">Data Scientist</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Projects</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
-
-			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
-				<ul>
-					<!--<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>-->
-					<li><a href="https://linkedin.com/in/shah-arpit/" target="_blank"><i class="icon-linkedin2"></i></a></li>
-					<li><a href="https://github.com/shaharpit809/" target="_blank"><i class="icon-github"></i></a></li>
-				</ul>
-			</div>
-
-		</aside>
-
 		<div id="colorlib-main">
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
@@ -99,7 +63,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   			<!-- <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
 						   					<h1>Hi! <br>I'm Arpit</h1>
@@ -107,7 +71,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 												<p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1KjvlJYPUuhg29QTj0lquRsaXWkKedh2N/view?usp=sharing" target="_blank">Download CV <i class="icon-download4"></i></a></p>
 										</div>
 					   				</div>
-					   			</div>
+					   			</div> -->
 					   		</div>
 				   		</div>
 				   	</li>
@@ -474,21 +438,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div> -->
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<span><center>Yelp Recommendation System</center></span>
-							<div class="project" style="background-image: url(images/yelp.png);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Yelp Recommendation System</a></h3>
-										<span>Built a restaurant recommendation system on Yelp dataset using Content-based, Collaborative and Hybrid based models.
-										Achieved 95.5% precision on textrank based key phrase generation from Yelp restaurant reviews, implemented Whoosh and BM25 based review indexing and retrieval, developed prototype using Flask.</span>
-										<p class="icon">
-											<span><a href="https://github.com/shaharpit809/Yelp-Dataset-Challenge" target="_blank"><i class="icon-github"></i></a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<span><center>Audio Sentiment Analysis</center></span>
 							<div class="project" style="background-image: url(images/Audio-Sentiment-Analysis.png);">
 								<div class="desc">
@@ -502,7 +451,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<span><center>Latent Dirichlet Allocation (LDA) on YELP Data</center></span>
+							<div class="project" style="background-image: url(images/topic_modeling.png);background-size: contain;">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Latent Dirichlet Allocation (LDA) on Large Scale Data</a></h3>
+										<span>Extensively carried out experiments to compare the performance of EM and Online LDA in Spark on Yelp dataset after tuning both LDA and Spark parameters.</span>
+										<p class="icon">
+											<span><a href="https://github.com/shaharpit809/Latent-Dirichlet-allocation-LDA-on-YELP-dataset-using-Apache-Spark" target="_blank"><i class="icon-github"></i></a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<span><center>Latent Dirichlet Allocation (LDA) on YELP Data</center></span>
 							<div class="project" style="background-image: url(images/topic_modeling.png);background-size: contain;">
 								<div class="desc">
